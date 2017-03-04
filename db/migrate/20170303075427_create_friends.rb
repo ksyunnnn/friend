@@ -3,7 +3,7 @@ class CreateFriends < ActiveRecord::Migration
     create_table :friends do |t|
       t.string :name
       t.string :note
-      t.strting :url
+      t.string :url
 
       t.timestamps null: false
     end
