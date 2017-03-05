@@ -204,7 +204,6 @@ input {
 }
 
 /* friend card */
-.lw { font-size: 60px; }
 
 .card-wrap{
   display: block;
@@ -215,8 +214,6 @@ input {
   
   opacity: 1;
   transition-duration: .218s;
-  
-  width: 240px;
 }
 
 .card{
@@ -235,6 +232,7 @@ input {
   overflow: hidden;
   position: relative;
   transition: max-height .218s ease-in;
+  float: left;
 }
 
 .card-title{
@@ -260,4 +258,8 @@ input {
 .card-content .card-title .card-desc{
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.custom-space{
+  float: right;
 }
